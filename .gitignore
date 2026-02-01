@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+# outputs and local artifacts
+outputs/
+__pycache__/
+*.pyc
+# environments
+.venv/
+venv/
+.env/
+# editor settings
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
+EOF
